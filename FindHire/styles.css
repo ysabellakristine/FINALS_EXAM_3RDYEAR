@@ -1,0 +1,181 @@
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+button[type="submit"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #c800ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: rgb(0, 176, 252);     
+    margin: 0;  
+    flex-direction: column;    
+    text-align: center;                   
+    margin-top: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #c008a1;
+  display: flex;
+  justify-content: space-between;  /* Distribute space between items */
+  align-items: center;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;               /* Increase padding for larger links */
+  text-decoration: none;
+  font-size: 22px;                  /* Increase font size for larger text */
+}
+
+.topnav a:hover {
+  background-color: #ffa2e9;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #5e0239;
+  color: white;
+}
+
+/* Additional styling to align the right items to the right */
+.topnav .right {
+  margin-left: auto;  /* Push right links to the right */
+}
+.topnav a.active:hover {
+  background-color: #ffa2e9;
+  color: black;
+
+}
+
+.container {
+    background-color: #b0faf3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+    border: 10px solid #e601ff;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container .message{
+    background-color: #b873f5;
+    border: 1px solid #341313;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: rgb(186, 10, 255);   
+}
+
+h2 { 
+    color: rgb(74, 0, 158);  /* Corrected typo */
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: rgb(34, 0, 255);             
+}
+
+.table_container {
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    padding: 20px;             /* Padding inside the container */
+    margin: 30px auto;         /* Centered with top and bottom margin */
+    max-width: 90%;            /* Limit width for better layout control */
+    overflow: hidden;          /* Hide any overflow content */
+}
+
+.table_container table {
+    width: 100%;               /* Make table span the full container width */
+    border-collapse: collapse; /* Ensure table borders are collapsed */
+    margin: 20px 0;            /* Add some space around the table */
+}
+
+.table_container table, 
+.table_container th, 
+.table_container td {
+    border: 1px solid #ddd;    /* Light gray border */
+}
+
+.table_container th, 
+.table_container td {
+    padding: 12px;             /* Padding inside table cells */
+    text-align: left;          /* Align text to the left */
+}
+
+.table_container th {
+    background-color: #e601ff; /* Header background color */
+    color: white;              /* Header text color */
+}
+
+.table_container td {
+    background-color: #fff;    /* Cell background color */
+}
+
+.table_container tr:hover td {
+    background-color: #ddd;    /* Hover effect on rows */
+}
+
+/* Styles for the job posts container */
+.job-posts-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Each job post card */
+.job-post-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Job post title */
+.job-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Job description */
+.job-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Location, salary, and other details */
+.job-location, .job-salary, .application-deadline, .job-status, .job-date-posted {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #555;
+}
+
+/* Emphasize labels */
+.job-location strong, .job-salary strong, .application-deadline strong, .job-status strong, .job-date-posted strong {
+    color: #333;
+}
